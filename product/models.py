@@ -1,4 +1,5 @@
 from django.db import models
+from user.models import CustomerUser
 
 
 # Create your models here.
@@ -7,6 +8,9 @@ class Category(models.Model):
     slug = models.SlugField(max_length=100, unique=True, blank=True)
     description = models.TextField(default='')
 
+    def __str__(self):
+        return self.name
+
 
 class Brand(models.Model):
     name = models.CharField(max_length=100, null=False)
@@ -14,6 +18,9 @@ class Brand(models.Model):
     phone_number = models.CharField(max_length=10, default='')
     address = models.CharField(max_length=255, default='')
     logo = models.ImageField(upload_to='brand/%Y/%m')
+
+    def __str__(self):
+        return self.name
 
 
 class Product(models.Model):
@@ -25,13 +32,19 @@ class Product(models.Model):
     active = models.BooleanField(default=True)
     category = models.ForeignKey(Category, on_delete=models.SET_NULL, null=True)
     brand = models.ForeignKey(Brand, on_delete=models.SET_NULL, null=True)
+    thumbnail = models.ImageField(upload_to='thumbnail-product/%Y/%m', default=None)
+
+    def __str__(self):
+        return self.name
 
     class Meta:
         unique_together = ('name', 'category')
+        # ordering = ['-id']
 
 
 class Image(models.Model):
     image = models.ImageField(upload_to='product/%Y/%m')
+    active = models.BooleanField(default=True)
     product = models.ForeignKey(Product, on_delete=models.SET_NULL, null=True)
 
 
@@ -49,10 +62,10 @@ class ProductVariation(models.Model):
 class Interact(models.Model):
     vote = models.BooleanField(blank=True)
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
-    # user
+    customer_user = models.ForeignKey(CustomerUser, on_delete=models.SET_NULL, null=True)
 
 
 class Comment(models.Model):
     content = models.TextField(default='')
     interact = models.ForeignKey(Interact, on_delete=models.CASCADE)
-    cm = models.ForeignKey('self', on_delete=models.CASCADE)
+    cm = models.ForeignKey('self', on_delete=models.SET_NULL, blank=True, null=True)

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="94875d9d-840d-49fd-8d57-938ba08a9782" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/product/migrations/0002_auto_20211028_1654.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/migrations/0003_image_active.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/migrations/0004_product_images.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/migrations/0005_auto_20211029_2054.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/migrations/0006_images.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/migrations/0008_product_thumbnail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/brand/2021/10/brand1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/brand/2021/10/brand13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/brand/2021/10/brand2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/brand/2021/10/brand3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/brand/2021/10/brand4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/brand/2021/10/brand5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/10-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/10-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/10-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/10-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/11-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/11-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/11-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/11-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/12-9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/14-13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/14-15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/14-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/14-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/14-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/14-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/14-9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/15-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/16-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/16-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/16-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/16-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/1_PGWACON.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/34.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/35.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/36.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/37.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/38.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/39.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/4.3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/4.4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/4.5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/4.6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/4.6_Vb7ChcH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/4.7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/4.8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/43.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/44.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/45.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/47.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/48.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/54.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/55.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/56.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/left8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/recent1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/product/2021/10/recent3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/thumbnail-product/2021/10/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/thumbnail-product/2021/10/11-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/thumbnail-product/2021/10/14-13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/thumbnail-product/2021/10/14-14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/thumbnail-product/2021/10/14-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/thumbnail-product/2021/10/15-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/thumbnail-product/2021/10/16-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/thumbnail-product/2021/10/16-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/thumbnail-product/2021/10/35.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/thumbnail-product/2021/10/48.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2087h1pBSIxxcvA9NGOilGio9AD" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94875d9d-840d-49fd-8d57-938ba08a9782" name="Changes" comment="" />
+      <created>1635414476815</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635414476815</updated>
+      <workItem from="1635414478132" duration="19375000" />
+      <workItem from="1635474423067" duration="1925000" />
+      <workItem from="1635492091906" duration="7677000" />
+      <workItem from="1635557910155" duration="3224000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

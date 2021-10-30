@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'order.apps.OrderConfig',
     'product.apps.ProductConfig',
     'user.apps.UserConfig',
+    'rest_framework',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
@@ -52,6 +54,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
 ]
 
 ROOT_URLCONF = 'core.urls'
@@ -81,7 +85,7 @@ WSGI_APPLICATION = 'core.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'demodb',
+        'NAME': 'dbproject',
         'USER': 'root',
         'PASSWORD': 'Toantuy152001',
         'HOST': ''
@@ -128,6 +132,21 @@ USE_TZ = True
 STATIC_URL = '/static/'
 MEDIA_ROOT = f'{BASE_DIR}/static/'
 AUTH_USER_MODEL = 'user.CustomerUser'
+
+REST_FRAMEWORK = {
+    # Use Django's standard `django.contrib.auth` permissions,
+    # or allow read-only access for unauthenticated users.
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+    ],
+
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 9
+}
+
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:4200",
+]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
